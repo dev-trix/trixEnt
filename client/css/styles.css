@@ -1,0 +1,160 @@
+/*Divs for catagories*/
+
+.fixed-image {
+	display: inline-block;
+}
+
+.div-before-advert {
+	width: 100px;
+	height: 100px; 
+	background-color: black;
+	display: inline-block;
+}
+
+/*@media screen and (max-width: 200px){
+	.div-before-advert{
+		width:	100px;
+		height:	100px;
+		background-color: black;
+		display: hidden;
+	}
+}*/
+
+.advert {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	display: inline-block;
+}
+
+/*@media screen and (max-width: 800px)
+{
+	.advert{
+		width:200px;
+		height: 200px;
+		background:blue;
+		display: hidden;
+	}
+}*/
+
+.div0 {
+	width: 100px;
+	height: 200px;
+	background: blue;
+	display: inline-block;
+}
+
+.anime-div {
+	border-color: white;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.div2 {
+	width: 100px;
+	height: 200px;
+	background: black;
+	display: inline-block;
+}
+
+.comedy-div {
+	border-color: white;
+	background-attachment: fixed;
+	/*box-sizing: border-box;*/
+	display: inline-block;
+}
+
+.horror-div {
+	border-color: white;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.adult-div {
+	border-color: white;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.sci-fi-div {
+	border-color: white;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+/*The menu bar*/
+
+header {
+	background-color: #cc0066;
+	color: #FFFFFF;
+}
+
+header .brand {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 22px;
+}
+
+.copyright {
+	font-weight: bold;
+}
+
+.section-heading {
+	color: green;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 22px 0;
+}
+
+.section-subheading {
+	margin-bottom: 16px;
+}
+
+.section-image {
+	border: 2px solid green;
+}
+
+body {
+	background-color: #000000;
+}
+
+nav {}
+
+p {
+	color: green;
+}
+
+h1 {
+	text-indent: 10px;
+	padding-top: 10px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 400px;
+}
+
+nav li {
+	display: inline-table;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	/**/
+}
+div.login-link{
+	position:absolute;
+	right:90px;
+	bottom:50px;
+}
+
+div.sticky{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+}
